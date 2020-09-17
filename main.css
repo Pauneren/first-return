@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+}
+
+header{
+    width: 100%;
+    height: 50px;
+}
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+  
+}
+
+a.main-header__brand{
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+.logo{
+    width: 50%;
+display:inline-flex ;
+flex-direction: row;
+justify-content: space-between;
+    flex-wrap: nowrap;
+
+
+}
+
+img.image-logo{
+    float: left;
+    height: 50px;
+
+}
+
+/*
+.main-header__brand{
+text-decoration: none;
+display: inline-block;
+width: 100%;
+
+font-size: large ;
+font-weight: 700 ;
+padding: 20px;
+background-color: #33CDF4;
+text-align: center;
+color:#19414B ;
+height: 90px;
+}*/
+
+
+
+
+a.main-header__brand{
+    font-size: 30px;
+    background-color: #33CDF4;
+}
+
+a.main-header__brand>h1{
+    margin: 0;
+    margin-right: 15px;
+    color: black;
+    font-size: 40px;
+}
+
+nav.main-nav{
+    display: inline-block;
+    vertical-align: middle;
+  width: 50%;
+  background-color: #2FA6C4;
+  height: 4em;
+  font-size: 25px;
+  text-align: center;
+  height: 50px;
+
+ 
+}
+
+
+.main-nav__item{
+    display: inline;
+    margin-right: 15px;
+    vertical-align: middle;
+
+}
+
+li.main-nav__item>a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.product-overview, .section-title, .para1 {
+    text-align: center;
+    
+}
+
+
+ul.main-nav__item{
+    margin: 0;
+}
+
+ul.main-nav__items{
+    margin: 0;
+}
+
+.product-overview, .section-title{
+    color: #19414B;
+}
+.para1{
+    color: #624839;
+}
+
+.section-img{
+    height: 300px;
+    width: 450px;
+}
+
+/*section with images*/
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+    
+    width: 80%;
+    justify-content: space-between;
+    margin: 3em;
+}
+.h4-description{
+margin-inline-start: 50px;
+    margin-inline-end: 50px;
+
+
+max-width: 500px;
+}
+
+/*Footer*/
+footer{
+    background-color: #D06324;
+    height: 6em;
+    text-align: center;
+}
+
+footer>h5 {
+    height: 20px;
+    margin-bottom: 0;
+    padding-top: 8px;
+}
+
+footer>p{
+    margin: 4px;
+}
+
+footer>h6{
+    margin: 0;
+    padding: 0;
+}
+
+/*/*
